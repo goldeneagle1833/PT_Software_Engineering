@@ -117,10 +117,10 @@ const cat = "Love me, pet me! HSSSS!"
 const catSaying = ["cat saying 2", "cat saying 3", "cat saying 4"]
 const randomCat = catSaying[Math.floor(Math.random() * catSaying.length)]
 
-console.log(randomCat)
+
 for(let i = 0; i <= 20; i++)
     if (i % 2 === 0){
-        console.log(randomCat)
+        console.log(catSaying[Math.floor(Math.random() * catSaying.length)])
     } else {
     console.log(cat)
 }
@@ -131,3 +131,48 @@ nums.sort((a, b) => a - b)
 console.log(nums.length)
 //const median = nums.sort([Math.floor(nums.length % 2)])
 //console.log(median)
+
+
+////////////////
+//Hungry for more
+/////////////////
+
+const kristynsCloset = [
+    "left shoe",
+    "cowboy boots",
+    "right sock",
+    "GA hoodie",
+    "green pants",
+    "yellow knit hat",
+    "marshmallow peeps"
+  ];
+  // Thom's closet is more complicated. Check out this nested data structure!!
+  const thomsCloset = [
+    [
+      // These are Thom's shirts
+      "grey button-up",
+      "dark grey button-up",
+      "light blue button-up",
+      "blue button-up",
+    ],[
+      // These are Thom's pants
+      "grey jeans",
+      "jeans",
+      "PJs"
+    ],[
+      // Thom's accessories
+      "wool mittens",
+      "wool scarf",
+      "raybans"
+    ]
+  ];
+
+let kristynsShoe = kristynsCloset[0]
+kristynsCloset.slice(0,0)
+thomsCloset[2].push(kristynsShoe)
+console.log(thomsCloset[2])
+
+
+for (let i =0; i <= 3; i++){
+    console.log(kristynsCloset[Math.floor(Math.random() * kristynsCloset.length)])
+}
