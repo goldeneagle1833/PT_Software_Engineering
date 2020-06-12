@@ -172,7 +172,12 @@ kristynsCloset.slice(0,0)
 thomsCloset[2].push(kristynsShoe)
 console.log(thomsCloset[2])
 
+//function kristynsOutfit() {for (let i =0; i <= 3; i++){
+//    console.log(kristynsCloset[Math.floor(Math.random() * kristynsCloset.length)])
+//}
+//}
 
-for (let i =0; i <= 3; i++){
-    console.log(kristynsCloset[Math.floor(Math.random() * kristynsCloset.length)])
-}
+console.log("Kristyn will be wearing " + kristynsCloset[Math.floor(Math.random() * kristynsCloset.length)] + " and " + kristynsCloset[Math.floor(Math.random() * kristynsCloset.length)])
+console.log("Thom will be wearing " + thomsCloset[0][Math.floor(Math.random() * thomsCloset[0][0].length)])
+
+console.log(thomsCloset[0][Math.floor(Math.random() * 3)])
