@@ -133,3 +133,18 @@ for(i = 0; i < bondFilms.length; i++){
 }
 
 console.log(bondYear)
+
+
+function grossCumulative(arr){
+    let bondGross = 0
+    for(i = 0; i < arr.length; i++){
+        let a = (bondFilms[i].gross.replace(/\$|,/g, ''));
+        let x = parseInt(a);
+        bondGross += x;
+        
+}
+}
+
+
+
+grossCumulative(bondFilms)
