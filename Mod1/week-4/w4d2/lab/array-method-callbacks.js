@@ -4,7 +4,7 @@ minions.forEach((here)=> console.log(here += ' - here'))
 
 const capitlaizedMinoins = minions.map(cap => {
     
-    return cap.charAt(0).toUpperCase() + cap.slice(1)
+    return cap.charAt(0).toUpperCase() + cap.slice(1) 
 })
 
 console.log(capitlaizedMinoins)
