@@ -43,7 +43,7 @@ class Enemy {
         console.log(this.health)
     }
     fight(doug){
-        console.log(this.health - doug.weapons.sprinkleSpray)
+        this.health - doug.weapons.sprinkleSpray
     }
 }
 const rat = new Enemy("rat")

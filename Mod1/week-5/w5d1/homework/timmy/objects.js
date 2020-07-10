@@ -47,10 +47,10 @@ class Person {
         }
     }
     ageUp(){
-        this.age + 1
-        this.height + 1
-        this.weight + 1
-        this.mood - 1
+        this.age++
+        this.height++
+        this.weight++
+        this.mood--
         this.bankAccount + 10
     }
     buyHamster(hamster){
